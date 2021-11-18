@@ -9,5 +9,5 @@ test('Area Triangle', () => {
 })
 
 test('Area Circle', () => {
-    expect(calcAreaCircle(4)).toBe(50.2654824574);
+    expect(calcAreaCircle(4)).toBe(50.24);
 })
