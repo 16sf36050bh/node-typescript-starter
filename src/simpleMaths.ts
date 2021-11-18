@@ -7,5 +7,5 @@ export function calcAreaTriangle(width: number, height: number): number {
 }
 
 export function calcAreaCircle(radius: number): number {
-    return (radius^2)*3.14;
+    return Math.round((radius**2)*Math.PI);
 }
